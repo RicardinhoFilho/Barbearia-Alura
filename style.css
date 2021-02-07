@@ -1,0 +1,62 @@
+.tituloprincipal {
+    /*Cabecalho*/
+    padding-left: 20px;
+}
+
+.Principal {
+    /*div com class=Principal*/
+    background-color: #CCCCCC;
+    /*cor de fundo cinza*/
+    text-align: center;
+    /*linha do texto ao centro*/
+}
+
+#bannerbarbearia {
+    /*imagem de banner*/
+    width: 100%;
+    /*oucar 100% da largura*/
+}
+
+.titulocentralizado {
+    /*título h2 e h3*/
+    text-align: center;
+    /* texto alinhado ao centro*/
+}
+
+#missao {
+    /*p id = missao*/
+    font-size: 20px;
+    /*fonte de 20px para deixar maior dar mais importancia*/
+}
+
+em strong {
+    /*tudo q estiver em itálico e em negrito*/
+    color: red;
+    /*cor da fonte vermelha*/
+}
+
+.Beneficios {
+    /*div class = Beneficios*/
+    background-color: #FFFFFF;
+    /*cor de fundo branza*/
+    font-style: italic;
+    /* fonte itálica para dar mais destaque */
+}
+
+ul {
+    /*lista não ordenada*/
+    display: inline-block;
+    /* toda a "ul" deverá estar colocada alinhada */
+    vertical-align: top;
+    /*ao invés da imagem estar alinhada de baixo para acima, agora estará alinhada de cima para baixo */
+    width: 20%;
+    /* largura preenche 20% da tela */
+    margin-right: 20%;
+    /* margem à direitra estará alinha à 20% da tela */
+}
+
+#beneficiosimagem {
+    /*imagem beneficios*/
+    width: 50%;
+    /* imagem com largura de 50% da tela */
+}
