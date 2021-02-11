@@ -79,3 +79,20 @@ border-color:#088c19;
 .descicao {
     font-size: 18px;
 }
+
+footer{
+    
+    background-image: url(./bg.jpg);
+
+    text-align: center;
+
+    padding: 40px 0;
+
+}
+
+.copyright{
+
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
