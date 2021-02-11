@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css//produtos.css">
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+    </head>
+    <header>
+        <div class="caixa">
+            <h1><img src="./images/logo.png" alt="logo"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home<a></li>
+                    <li><a href="produtos.html"> Produtos</a></li>
+                    <li><a href="contato.html"> Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" required>
+
+            <label for="telefone">Telefone</label >
+            <input type="tel" id="telefone" required placeholder="(xx) x xxxx-xxxx">
+            
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com">
+
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="70" rows="10" required></textarea>
+
+            <fieldset id="modo-de-contato">
+                <legend>Como prefere nosso contato?</legend>
+                
+                <label for="radio-email"> <input type="radio" name="contato" id="radio-email">
+                    E-mail</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked>WhatsApp</label>
+
+            </fieldset>
+
+            <fieldset id="">
+                <legend>Qual horário prefere ser atendido</legend>
+                <select horario id="horario">
+                    <option value="horario">Manhã</option>
+                    <option value="horario">Tarde</option>
+                    <option value="horario">Noite</option>
+                </select>
+            </fieldset>
+
+            <label id="receber-novidades"><input type="checkbox" name="receber-email" id="" checked>Gostaria de recber nossas
+                novidade por e-mail</label>
+            <input type="submit" value="Enviar Formulário">
+
+
+        </form>
+    </main>
+    <footer>
+        <img src="./images/logo-branco.png" alt="Logo Barbearia">
+        <p class="copyright">&copy; Copyright Barbearia-Alura 2019</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+main{
+
+    width: 940px;
+    margin: 0px;
+}
+
+form{
+
+    margin: 40px;
+}
+
+form label,legend{
+
+    display: block;
+    font-size: 20px;
+    margin: 20px 0 10px ;
+}
+
+.input,textarea{
+    display: block;
+
+    padding: 10px 25px;
+    
+    margin: 0 0 10px;
+
+    width: 50%;
+}
+
+#receber-novidades{
+
+    margin-bottom: 20px;
+}
+
+#modo-de-contato label{
+
+    margin-top: 5px;
+}
